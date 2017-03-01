@@ -12,5 +12,9 @@ namespace Singleton
         {
             return;
         }
+        public void Action()
+        {
+            return;
+        }
     }
 }
