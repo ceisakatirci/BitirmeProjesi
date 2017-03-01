@@ -8,13 +8,6 @@ namespace Singleton
 {
     class SingletonVersiyon2
     {
-        public void Action()
-        {
-            return;
-        }
-        public void Action()
-        {
-            return;
-        }
+
     }
 }
