@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Iterator
 {
-    abstract class Iterator
+    abstract class OzetIterator
     {
         public abstract object BastaGelen();
         public abstract object Sonraki();

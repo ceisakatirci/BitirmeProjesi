@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Iterator
+namespace Observer
 {
-    abstract class Kume
+    class Nesne : OzetNesne
     {
-        public abstract Iterator IteratorOlustur(IteratorVersiyon versiyon);
+        public string NesneDurum { get; set; }
     }
 }

@@ -6,17 +6,17 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Iterator
 {
-    class SomutKume : Kume
+    class Koleksiyon : OzetKoleksiyon
     {
         private ArrayList _elemanlar = new ArrayList();
-        public override Iterator IteratorOlustur(IteratorVersiyon versiyon)
+        public override OzetIterator IteratorOlustur(IteratorVersiyon versiyon)
         {
             switch (versiyon)
             {
-                case IteratorVersiyon.SomutIteratorV1:
-                    return new SomutIteratorV1(this);
-                case IteratorVersiyon.SomutIteratorV2:
-                    return new SomutIteratorV2(this);
+                case IteratorVersiyon.IteratorV1:
+                    return new IteratorV1(this);
+                case IteratorVersiyon.IteratorV2:
+                    return new IteratorV2(this);
                 default:
                     throw new Exception(message: "Versiyon Belirtilmedi!");
             }
