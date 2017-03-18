@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mediator
 {
-    class Arabulucu : OzetArabulucu
+    class Aracı : OzetAracı
     {
         private Taraf1 _taraf1 = null;
         private Taraf2 _taraf2 = null;

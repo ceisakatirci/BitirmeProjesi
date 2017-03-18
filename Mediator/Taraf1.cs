@@ -8,7 +8,7 @@ namespace Mediator
 {
     class Taraf1 : OzetTaraf
     {
-        public Taraf1(OzetArabulucu arabulucu)
+        public Taraf1(OzetAracı arabulucu)
             : base(arabulucu)
         {
 

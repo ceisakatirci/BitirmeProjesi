@@ -10,7 +10,7 @@ namespace Mediator
     {
         static void Main(string[] args)
         {
-            Arabulucu arabulucu = new Arabulucu();
+            Aracı arabulucu = new Aracı();
             Taraf1 taraf1 = new Taraf1(arabulucu);
             Taraf2 taraf2 = new Taraf2(arabulucu);
             arabulucu.Taraf1 = taraf1;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mediator
 {
-    abstract class OzetArabulucu
+    abstract class OzetAracı
     {
         public abstract void Gonder(string mesaj, OzetTaraf taraf);
     }

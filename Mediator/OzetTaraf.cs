@@ -8,8 +8,8 @@ namespace Mediator
 {
     abstract class OzetTaraf
     {
-        protected OzetArabulucu arabulucu;
-        public OzetTaraf(OzetArabulucu arabulucu)
+        protected OzetAracı arabulucu;
+        public OzetTaraf(OzetAracı arabulucu)
         {
             this.arabulucu = arabulucu;
         }

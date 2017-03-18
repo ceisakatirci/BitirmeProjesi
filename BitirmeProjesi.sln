@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.DotNetObserverIdio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{1FBDBBEB-759D-476B-BEFE-2EFD472D4308}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Sohbet", "Mediator.Sohbet\Mediator.Sohbet.csproj", "{BD206078-84A2-4F4C-8619-6ED18C70A36A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{1FBDBBEB-759D-476B-BEFE-2EFD472D4308}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FBDBBEB-759D-476B-BEFE-2EFD472D4308}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FBDBBEB-759D-476B-BEFE-2EFD472D4308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD206078-84A2-4F4C-8619-6ED18C70A36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD206078-84A2-4F4C-8619-6ED18C70A36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD206078-84A2-4F4C-8619-6ED18C70A36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD206078-84A2-4F4C-8619-6ED18C70A36A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,5 +68,6 @@ Global
 		{535B7866-F1A2-4181-B66F-C6BF3C0A2BE0} = {13A8CA0F-EB41-4142-973C-F823A861260C}
 		{7A64A34F-F853-4B04-8A96-2CF6719F29CA} = {13A8CA0F-EB41-4142-973C-F823A861260C}
 		{1FBDBBEB-759D-476B-BEFE-2EFD472D4308} = {13A8CA0F-EB41-4142-973C-F823A861260C}
+		{BD206078-84A2-4F4C-8619-6ED18C70A36A} = {13A8CA0F-EB41-4142-973C-F823A861260C}
 	EndGlobalSection
 EndGlobal
